@@ -11,9 +11,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class PsqlConnectionTool {
-    private String url = "jdbc:postgresql://lese.rocks:5432/classwork";
+    private String url = "jdbc:postgresql://xxx.xxx.xxx.xxx:5432/classwork";
     private String username = "postgres";
-    private String password = "613613";
+    private String password = "";
     private Connection connection = null;
 
     public Connection getConn() {
